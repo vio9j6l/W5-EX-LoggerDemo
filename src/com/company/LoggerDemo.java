@@ -2,8 +2,8 @@ package com.company;
 
 public class LoggerDemo {
     public static void main(String[] args) {
-        Logger myLogger = new Logger();
-        Logger myLogger2 = new Logger();
-        Logger myLogger3 = new Logger();
+        Logger myLogger = Logger.getInstance();
+        Logger myLogger2 = Logger.getInstance();
+        Logger myLogger3 = Logger.getInstance();
     }
 }
